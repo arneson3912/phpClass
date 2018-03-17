@@ -7,14 +7,10 @@
 </head>
 <body>
 <header>
-    <h1>Jeremy's Website</h1>
+    <h1><?php include 'includes/header.php'?></h1>
 </header>
 <nav>
-    <ul>
-        <li><a href="/">HomePage</a></li>
-        <li><a href="#">Loop</a></li>
-        <li><a href="#">Count Down</a></li>
-    </ul>
+<?php include 'includes/nav.php'?>
 </nav>
 <main>
     <img src="images/jeremy.jpg" alt="Picture of Jeremy">
@@ -27,7 +23,7 @@
         -Altair
     </p>
 </main>
-<footer>&copy; 2020 JeremyArneson.com</footer>
+<footer><?php include 'includes/footer.php'?></footer>
 </body>
 
 </html>

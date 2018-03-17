@@ -12,6 +12,8 @@ main{
     width: 60%;
     float: left;
     font-size: large;
+    text-align: center;
+    min-height: 500px;
 }
 main img{
     width: 250px;
